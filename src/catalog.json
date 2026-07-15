@@ -1,0 +1,14 @@
+{
+  "movie": {
+    "filme001": {
+      "titulo": "Filme Teste",
+      "objectKey": "filmes/filme001.mp4"
+    }
+  },
+  "episode": {
+    "ep001": {
+      "titulo": "Episódio Teste",
+      "objectKey": "series/serie001/t01/e01.mp4"
+    }
+  }
+}

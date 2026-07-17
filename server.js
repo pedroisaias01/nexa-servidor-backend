@@ -343,6 +343,6 @@ app.use((req, res) => {
     });
 });
 
-app.listen(PORTA, () => {
-    console.log(`Nexa Prime API rodando na porta ${PORTA}`);
+const PORT = process.env.PORT || 8081;
+app.listen(PORT, () => console.log(`✅ Nexa Prime API rodando na porta ${PORT}`
 });

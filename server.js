@@ -345,4 +345,3 @@ app.use((req, res) => {
 
 const PORT = process.env.PORT || 8081;
 app.listen(PORT, () => console.log(`✅ Nexa Prime API rodando na porta ${PORT}`));
-});
